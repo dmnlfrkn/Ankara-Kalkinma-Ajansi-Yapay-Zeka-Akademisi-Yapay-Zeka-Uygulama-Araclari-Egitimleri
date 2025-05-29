@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QTabWidget, QWidget,
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import QThread, pyqtSignal
 
-api_key = "AIzaSyB4QcoH-GUEyCQWdgxdhRR85QqzFG_5gq0"
+api_key = "Your Google Gemini Key is here from https://aistudio.google.com/apikey"
 api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
 def apply_styles(self):
